@@ -110,41 +110,31 @@ p {
     /* ... seus estilos anteriores do header e botões ... */
     main {
         display: flex;
-        flex-direction: column;
-        /* Alinha os elementos em formato de coluna (vertical) */
-        align-items: center;
-        /* Centraliza os elementos horizontalmente */
-        text-align: center;
-        /* Centraliza os textos */
+        flex-direction: column; /* Alinha os elementos em formato de coluna (vertical) */
+        align-items: center;    /* Centraliza os elementos horizontalmente */
+        text-align: center;     /* Centraliza os textos */
         padding: 0 20px;
     }
 
     header {
         display: flex;
-        justify-content: flex-end;
-        /* Empurra todo o conteúdo para a direita */
-        padding: 5px 10px 0 0;
-        /* Ajusta o espaçamento nas bordas superior e direita */
+        justify-content: flex-end; /* Empurra todo o conteúdo para a direita */
+        padding: 5px 10px 0 0;     /* Ajusta o espaçamento nas bordas superior e direita */
 
     }
 
     .content {
-        order: 1;
-        /* Define que o bloco de texto deve ser o PRIMEIRO elemento visualizado */
-        margin-top: 60px;
-        /* Cria um espaçamento saudável entre o botão e o título */
+        order: 1;         /* Define que o bloco de texto deve ser o PRIMEIRO elemento visualizado */
+        margin-top: 60px; /* Cria um espaçamento saudável entre o botão e o título */
 
     }
 
     img {
-        order: 2;
-        /* Define que a imagem deve ser o SEGUNDO elemento (ir para o final) */
+        order: 2;         /* Define que a imagem deve ser o SEGUNDO elemento (ir para o final) */
         width: 100%;
-        max-width: 312px;
-        /* Controla o tamanho ideal da ilustração no mobile */
+        max-width: 312px; /* Controla o tamanho ideal da ilustração no mobile */
         height: auto;
-        margin-top: 60px;
-        /* Cria um espaço entre o botão 'Learn more' e a ilustração */
+        margin-top: 60px; /* Cria um espaço entre o botão 'Learn more' e a ilustração */
     }
 
     /* Garante que o container do texto ocupe toda a largura disponível com margem de segurança */
@@ -152,8 +142,7 @@ p {
     .content {
         display: block;
         width: 100%;
-        padding: 0 20px;
-        /* Margem interna para o texto nunca encostar na borda da tela */
+        padding: 0 20px; /* Margem interna para o texto nunca encostar na borda da tela */
     }
 
     .nav-link {
@@ -183,27 +172,19 @@ p {
     h1 {
         font-size: 30px;
         line-height: 1.2;
-        width: 100%;
-        /* Mudado de 268px fixos para 100% fluido */
-        max-width: 280px;
-        /* Define um limite máximo elegante */
-        height: auto;
-        /* Deixe o navegador calcular a altura baseado no texto */
-        margin: 40px auto 20px auto;
-        /* Margens verticais limpas e centralizado */
+        width: 100%;      /* Mudado de 268px fixos para 100% fluido */
+        max-width: 280px; /* Define um limite máximo elegante */
+        height: auto;     /* Deixe o navegador calcular a altura baseado no texto */
+        margin: 40px auto 20px auto; /* Margens verticais limpas e centralizado */
     }
 
     p {
-        width: 100%;
-        /* Mudado de 304px fixos para 100% fluido */
-        max-width: 320px;
-        /* Evita que o texto estique demais em telas levemente maiores */
-        height: auto;
-        /* Remove a altura fixa de 165px que quebra o layout */
+        width: 100%;       /* Mudado de 304px fixos para 100% fluido */
+        max-width: 320px;  /* Evita que o texto estique demais em telas levemente maiores */
+        height: auto;      /* Remove a altura fixa de 165px que quebra o layout */
         font-size: 16px;
         line-height: 1.5;
-        margin: 0 auto 30px auto;
-        /* Centraliza horizontalmente e cria espaço para o botão */
+        margin: 0 auto 30px auto; /* Centraliza horizontalmente e cria espaço para o botão */
         text-align: center;
         font-weight: 400;
         letter-spacing: 0.5px;
@@ -213,7 +194,6 @@ p {
     .button-learn-more {
         font-size: 14px;
         margin: 0 auto 40px auto;
-        display: block;
-        /* Garante que o botão respeite o 'margin: auto' para centralizar */
+        display: block;         /* Garante que o botão respeite o 'margin: auto' para centralizar */
     }
 }
